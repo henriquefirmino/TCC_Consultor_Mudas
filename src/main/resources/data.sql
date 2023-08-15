@@ -1,0 +1,82 @@
+INSERT INTO REGIAO (nome_regiao)
+VALUES('Região de mar');
+
+INSERT INTO SOLO (TIPO_SOLO)
+VALUES('Solo diversos menos os encharcados');
+
+INSERT INTO FAMILIA (NAME_FAMILIA)
+VALUES('Fabaceae');
+
+INSERT INTO ESPECIE (NAME_ESPECIE, FAMILIA_ID)
+VALUES('sessilis',1);
+
+INSERT INTO BIOMA (NOME_BIOMA)
+VALUES('Mata Atlântica');
+
+-- next --
+
+INSERT INTO REGIAO (nome_regiao)
+VALUES('São Paulo');
+
+INSERT INTO SOLO (TIPO_SOLO)
+VALUES('Solos úmidos proximos a rios');
+
+INSERT INTO FAMILIA (NAME_FAMILIA)
+VALUES('Sapindaceae');
+
+INSERT INTO ESPECIE (NAME_ESPECIE, FAMILIA_ID)
+VALUES('Allophyllus',2);
+
+INSERT INTO BIOMA (NOME_BIOMA)
+VALUES('Pantanal');
+
+-- next --
+
+INSERT INTO REGIAO (nome_regiao)
+VALUES('Regiões costeiras');
+
+INSERT INTO SOLO (TIPO_SOLO)
+VALUES('Solo não inundáveis');
+
+INSERT INTO FAMILIA (NAME_FAMILIA)
+VALUES('Arecaceae');
+
+INSERT INTO ESPECIE (NAME_ESPECIE, FAMILIA_ID)
+VALUES('Astrocaryum',3);
+
+INSERT INTO BIOMA (NOME_BIOMA)
+VALUES('Caatinga');
+
+-- next --
+
+-- INSERT INTO REGIAO (nome_regiao)
+-- VALUES('Floresta Amazônica ');
+
+-- INSERT INTO SOLO (TIPO_SOLO)
+-- VALUES('Solo arenoso');
+
+-- INSERT INTO FAMILIA (NAME_FAMILIA)
+-- VALUES('Fabaceae');
+
+-- INSERT INTO ESPECIE (NAME_ESPECIE, FAMILIA_ID)
+-- VALUES('Inga',3);
+
+-- INSERT INTO BIOMA (NOME_BIOMA)
+-- VALUES('Floresta Tropicais');
+
+-- next --
+
+INSERT INTO REGIAO (nome_regiao)
+VALUES('Rio Grande do Sul ');
+
+INSERT INTO SOLO (TIPO_SOLO)
+VALUES('Solos umidos');
+
+INSERT INTO FAMILIA (NAME_FAMILIA)
+VALUES('Bignoniaceae');
+
+INSERT INTO ESPECIE (NAME_ESPECIE, FAMILIA_ID)
+VALUES('Handroanthus',3);
+
+INSERT INTO BIOMA (NOME_BIOMA)
+VALUES('Floresta de Araucária');
